@@ -2,12 +2,15 @@
 // Created on: Nov 2022
 //
 // This program allows you to order coffee.
+
 using System;
+
 class Program
 {
     public static void Main(string[] args)
-    
+    {
         System.Random random = new System.Random();
+        
         // This function accepts user input
         double sizeCost;
         double typeCost;
