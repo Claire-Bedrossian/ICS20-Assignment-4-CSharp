@@ -6,7 +6,7 @@ using System;
 class Program
 {
     public static void Main(string[] args)
-    {
+    
         System.Random random = new System.Random();
         // This function accepts user input
         double sizeCost;
@@ -14,8 +14,7 @@ class Program
         double subtotal;
         double finalCost;
         double finalCostDiscount;
-
-      
+    
         Console.WriteLine(" Order your coffee below. There is a twenty five percent discount for orders $ 3.50 and above...");
         Console.WriteLine("");
         Console.WriteLine("Coffee Sizes: Large $ 3.50, Medium $ 2.75, Small $ 1.50 ");
@@ -34,14 +33,14 @@ class Program
         finalCostDiscount = subtotal + (subtotal * 0.13) - (subtotal * 0.25);
         if (subtotal >= 3.50)
         {
-          Console.WriteLine("Your subtotal is: " + subtotal.ToString("0.00") + ". ");
+        Console.WriteLine("Your subtotal is: " + subtotal.ToString("0.00") + ". ");
           Console.WriteLine("");
           Console.WriteLine("HST: 13% ");
           Console.WriteLine("");
           Console.WriteLine("Your final cost is: " + finalCostDiscount.ToString("0.00") + ". ");
           } 
-      else
-        {
+    else
+       {
           Console.WriteLine("Your subtotal is: " + subtotal.ToString("0.00") + ". ");
           Console.WriteLine("");
           Console.WriteLine("HST: 13%");
