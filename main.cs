@@ -37,21 +37,21 @@ class Program
         finalCostDiscount = subtotal + (subtotal * 0.13) - (subtotal * 0.25);
         if (subtotal >= 3.50)
         {
-        Console.WriteLine("Your subtotal is: " + subtotal.ToString("0.00") + ". ");
-        Console.WriteLine("");
-        Console.WriteLine("HST: 13% ");
-        Console.WriteLine("");
-        Console.WriteLine("Your final cost is: " + finalCostDiscount.ToString("0.00") + ". ");
+            Console.WriteLine("Your subtotal is: " + subtotal.ToString("0.00") + ". ");
+            Console.WriteLine("");
+            Console.WriteLine("HST: 13% ");
+            Console.WriteLine("");
+            Console.WriteLine("Your final cost is: " + finalCostDiscount.ToString("0.00") + ". ");
         }
-    else
+        else
         {
-        Console.WriteLine("Your subtotal is: " + subtotal.ToString("0.00") + ". ");
-        Console.WriteLine("");
-        Console.WriteLine("HST: 13%");
-        Console.WriteLine("");
-        Console.WriteLine("Discount: 25%");
-        Console.WriteLine("");
-        Console.WriteLine("Your final cost is: " + finalCost.ToString("0.00") + ". ");
+            Console.WriteLine("Your subtotal is: " + subtotal.ToString("0.00") + ". ");
+            Console.WriteLine("");
+            Console.WriteLine("HST: 13%");
+            Console.WriteLine("");
+            Console.WriteLine("Discount: 25%");
+            Console.WriteLine("");
+            Console.WriteLine("Your final cost is: " + finalCost.ToString("0.00") + ". ");
         }
         Console.WriteLine("");
         Console.WriteLine("\nDone.");
